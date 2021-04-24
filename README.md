@@ -1,7 +1,7 @@
 
 
 # surfs_up by Jesus Vera
-
+![](Images/Surf.PNG)
 
 # Overview
 This project analyzes weather data for a stakeholder interested in investing in a surfing business located in Hawaii. The data has been collected by a Weather Observing System and stored in a flat database file(.db/.sqlite). We analyzed the weather to ensure the company is sustainable with Hawaii's temperature. The stakeholder has expressed explicit interest in weather statistics for June and December throughout recent years.
@@ -76,5 +76,5 @@ Below you can find December Temperature Observations Temp Range and count with 5
 •	4	(90, 100]	0
 
 
-
+![](Images/addanalysis.PNG)
  
