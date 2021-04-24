@@ -1,5 +1,7 @@
+
+
 # surfs_up by Jesus Vera
-![](surfs_up/Images/Surfing.png)
+
 
 # Overview
 This project analyzes weather data for a stakeholder interested in investing in a surfing business located in Hawaii. The data has been collected by a Weather Observing System and stored in a flat database file(.db/.sqlite). We analyzed the weather to ensure the company is sustainable with Hawaii's temperature. The stakeholder has expressed explicit interest in weather statistics for June and December throughout recent years.
@@ -14,6 +16,8 @@ This project analyzes weather data for a stakeholder interested in investing in 
 
 
 # Results
+![](Images/D1June.PNG)
+
 To access the observation data and analyze it, I have utilized SQLAlchemy ORM, which allows me to query the data bypassing python objects as queries. The data is then transformed within a python environment and analyzed, resulting in the below summary statistics.
 We can see that a standard deviation of 3.25 with a max of 85 and a minimum of 64 with 74. 
 -June Temperature Summary Statistics 
@@ -27,6 +31,8 @@ We can see that a standard deviation of 3.25 with a max of 85 and a minimum of 6
 •	75%	77.000000
 •	max	85.000000
 
+
+![](Images/D2December.PNG)
 
 We have analyzed December's temperature find that the mean is 71, the std is 3.74, the of 83 degrees with a min of 56 degrees. 
    -December Temperature Summary Statistics
@@ -50,7 +56,8 @@ Based on our Data Analysis, Data Provided, we can state as a high-level summary 
 
 In addition, current data provide attributes such precipitation and others, with two queries that our analysis pursue, performing weather data for June and December that helps results to decide how we would like to build the shop and what areas would make this location attractive to visitors to stop by and have a successful business.
         
- Below you can find June Temperature Observations Temp Range and count with 50,60 count of 0, 60,40 count of 171,  70,80 count of 1485, 80,90 count of 44 and 90,100 counts of 0.
+
+Below you can find June Temperature Observations Temp Range and count with 50,60 count of 0, 60,40 count of 171,  70,80 count of 1485, 80,90 count of 44 and 90,100 counts of 0.
     June spread	
     Temp Range Observation Count
 •	0	(50, 60]	0
@@ -67,3 +74,7 @@ Below you can find December Temperature Observations Temp Range and count with 5
 •	2	(70, 80]	883
 •	3	(80, 90]	4
 •	4	(90, 100]	0
+
+
+
+ 
